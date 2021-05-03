@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            register app
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+<h3 style="margin-top: 20px; margin-bottom: 20px;">List of students in my class</h3>
+<div>
+    <span>1</span><input type="text" placeholder="Name of the student" id="stud_1">
+    <br>
+    <span>2</span><input type="text" placeholder="Name of the student" id="stud_2">
+    <br>
+    <span>3</span><input type="text" placeholder="Name of the student" id="stud_3">
+    <br>
+    <span>4</span><input type="text" placeholder="Name of the student" id="stud_4">
+    <br>
+</div>
+<button onclick="submit();" id="submit_button">Submit</button>
+<div id="display_name_with_commas" style="font-weight: bold;"></div>
+<br><br>
+<div id="display_name_without_commas" style="font-weight: bold;"></div>
+<button onclick="sorting();" id="sort_button">Sort</button>
+</center>
+    </body>
+</html>
